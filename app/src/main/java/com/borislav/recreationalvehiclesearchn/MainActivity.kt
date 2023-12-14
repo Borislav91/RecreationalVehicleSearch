@@ -1,4 +1,4 @@
-package com.borislav.recreationalvehiclesearchn.ui
+package com.borislav.recreationalvehiclesearchn
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

@@ -1,4 +1,4 @@
-package com.borislav.recreationalvehiclesearchn.ui
+package com.borislav.recreationalvehiclesearchn
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
