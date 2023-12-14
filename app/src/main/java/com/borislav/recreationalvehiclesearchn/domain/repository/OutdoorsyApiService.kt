@@ -1,6 +1,6 @@
 package com.borislav.recreationalvehiclesearchn.domain.repository
 
-import com.example.draftoutdoorsycodechallenge.data.model.ApiResponse
+import com.borislav.recreationalvehiclesearchn.data.model.ApiResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

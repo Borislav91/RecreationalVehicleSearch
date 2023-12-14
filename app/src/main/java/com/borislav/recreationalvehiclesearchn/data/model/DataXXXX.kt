@@ -1,5 +1,4 @@
-package com.example.draftoutdoorsycodechallenge.data.model
-
+package com.borislav.recreationalvehiclesearchn.data.mode
 
 import com.google.gson.annotations.SerializedName
 

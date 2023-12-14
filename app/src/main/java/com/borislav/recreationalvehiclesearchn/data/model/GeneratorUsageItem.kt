@@ -1,6 +1,6 @@
-package com.example.draftoutdoorsycodechallenge.data.model
+package com.borislav.recreationalvehiclesearchn.data.model
 
-
+import com.borislav.recreationalvehiclesearchn.data.mode.DataX
 import com.google.gson.annotations.SerializedName
 
 data class GeneratorUsageItem(

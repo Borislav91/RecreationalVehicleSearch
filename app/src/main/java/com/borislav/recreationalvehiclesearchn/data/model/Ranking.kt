@@ -1,6 +1,6 @@
-package com.example.draftoutdoorsycodechallenge.data.model
+package com.borislav.recreationalvehiclesearchn.data.model
 
-
+import com.borislav.recreationalvehiclesearchn.data.mode.DistanceWeight
 import com.google.gson.annotations.SerializedName
 
 data class Ranking(

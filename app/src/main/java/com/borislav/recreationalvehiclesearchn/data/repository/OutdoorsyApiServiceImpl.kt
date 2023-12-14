@@ -1,7 +1,7 @@
 package com.borislav.recreationalvehiclesearchn.data.repository
 
+import com.borislav.recreationalvehiclesearchn.data.model.ApiResponse
 import com.borislav.recreationalvehiclesearchn.domain.repository.OutdoorsyApiService
-import com.example.draftoutdoorsycodechallenge.data.model.ApiResponse
 import retrofit2.Response
 import javax.inject.Inject
 

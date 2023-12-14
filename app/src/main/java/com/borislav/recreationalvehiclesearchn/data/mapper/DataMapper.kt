@@ -1,9 +1,9 @@
 package com.borislav.recreationalvehiclesearchn.data.mapper
 
+import com.borislav.recreationalvehiclesearchn.data.model.ApiResponse
+import com.borislav.recreationalvehiclesearchn.data.model.Data
+import com.borislav.recreationalvehiclesearchn.data.model.Included
 import com.borislav.recreationalvehiclesearchn.domain.model.VehicleListing
-import com.example.draftoutdoorsycodechallenge.data.model.ApiResponse
-import com.example.draftoutdoorsycodechallenge.data.model.Data
-import com.example.draftoutdoorsycodechallenge.data.model.Included
 
 // Extension function to convert ApiResponse to a list of VehicleListing.
 // It transforms each 'Data' object within the 'data' list of ApiResponse into a VehicleListing.
