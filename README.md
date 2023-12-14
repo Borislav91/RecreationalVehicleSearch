@@ -4,9 +4,13 @@ Android app that allows you to search Outdoorsy RV listings by keyword.
 
 Overview: The app is a an Android application showcasing the use of Clean Architecture and several key technologies in the Android ecosystem. It's designed to help users search for RV rentals using the Outdoorsy API.
 
-Clean Architecture: Ensures scalability, maintainability, and testability. MVVM (Model-View-ViewModel): Used for UI-related data handling. 
+##**Clean Architecture**: 
+Ensures scalability, maintainability, and testability. Separated Data, Domain and UI layers
 
-Key Technologies:Jetpack Compose: Modern UI toolkit for building native interfaces. Hilt: Dependency injection framework simplifying DI in Android apps. Kotlin Coroutines: Managing background tasks with simplified code and improved performance. Retrofit & Gson: Networking and JSON serialization/deserialization. Coil: Image loading library optimized for Jetpack Compose. Timber: Logging utility for easy debugging.
+##**Key Technologies**:
+**Jetpack Compose**: Modern UI toolkit for building native interfaces. 
+**Retrofit & Gson**: Networking and JSON serialization/deserialization. 
+**Coil**: Image loading library optimized for Jetpack Compose. Timber: Logging utility for easy debugging.
 
 ## **Main Feature**
 **RV rental Search**:  Users can search for RV rentals by keywords.
@@ -15,7 +19,7 @@ Key Technologies:Jetpack Compose: Modern UI toolkit for building native interfac
  Abstracts the data layer, making network calls to fetch RV rental data.
 
 ### **Coroutines & Flow**
-Asynchronous operations are managed using Kotlin coroutines. In combination with Kotlin Flow, it helps in handling reactive UI updates. The `BaseViewModel` showcases how state updates and events are managed using flows and state channels.
+Asynchronous operations are managed using Kotlin coroutines. In combination with Kotlin Flow, it helps in handling reactive UI updates. The `BaseViewModel` showcases how state updates and events are managed using flows and state channels. Managing background tasks with simplified code and improved performance
 
 **MVVM**
 The OutdoorsyListingsViewModel manages UI-related data and actions for searching the RV rentals.
