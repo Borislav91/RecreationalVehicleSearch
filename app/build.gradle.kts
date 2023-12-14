@@ -7,12 +7,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.draftoutdoorsycodechallenge"
+    namespace = "com.borislav.recreationalvehiclesearchn"
     compileSdk = 34
 
 
     defaultConfig {
-        applicationId = "com.example.draftoutdoorsycodechallenge"
+        applicationId = "com.borislav.recreationalvehiclesearchn"
         minSdk = 29
         targetSdk = 33
         versionCode = 1
